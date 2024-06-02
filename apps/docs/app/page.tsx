@@ -1,8 +1,9 @@
 import Image from "next/image";
-import { Card } from "@repo/ui/card";
-import { Code } from "@repo/ui/code";
+// import { Card } from "@repo/ui/card";
+// import { Code } from "@repo/ui/code";
 import styles from "./page.module.css";
-import { Button } from "@repo/ui/button";
+import "@repo/tailwindcss-config";
+// import { Button } from "@repo/ui/button";
 
 function Gradient({
   conic,
@@ -54,10 +55,11 @@ const LINKS = [
 export default function Page(): JSX.Element {
   return (
     <main className={styles.main}>
+      <div className="text-red text-[96px]">header here</div>
       <div className={styles.description}>
         <p>
           examples/basic&nbsp;
-          <Code className={styles.code}>docs</Code>
+          {/* <Code className={styles.code}>docs</Code> */}
         </p>
         <div>
           <a
@@ -78,9 +80,9 @@ export default function Page(): JSX.Element {
         </div>
       </div>
 
-      <Button appName="docs" className={styles.button}>
+      {/* <Button appName="docs" className={styles.button}>
         Click me!
-      </Button>
+      </Button> */}
 
       <div className={styles.hero}>
         <div className={styles.heroContent}>
@@ -134,9 +136,10 @@ export default function Page(): JSX.Element {
 
       <div className={styles.grid}>
         {LINKS.map(({ title, href, description }) => (
-          <Card className={styles.card} href={href} key={title} title={title}>
-            {description}
-          </Card>
+          // <Card className={styles.card} href={href} key={title} title={title}>
+          //   {description}
+          // </Card>
+          <>lll</>
         ))}
       </div>
     </main>
