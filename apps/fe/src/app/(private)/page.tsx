@@ -155,7 +155,7 @@ export default function Component() {
   );
 }
 
-function ActivityIcon(props) {
+function ActivityIcon(props: any) {
   return (
     <svg
       {...props}
@@ -174,7 +174,7 @@ function ActivityIcon(props) {
   );
 }
 
-function BriefcaseIcon(props) {
+function BriefcaseIcon(props: any) {
   return (
     <svg
       {...props}
@@ -194,7 +194,7 @@ function BriefcaseIcon(props) {
   );
 }
 
-function CircleCheckIcon(props) {
+function CircleCheckIcon(props: any) {
   return (
     <svg
       {...props}
@@ -214,7 +214,7 @@ function CircleCheckIcon(props) {
   );
 }
 
-function CogIcon(props) {
+function CogIcon(props: any) {
   return (
     <svg
       {...props}
@@ -246,7 +246,7 @@ function CogIcon(props) {
   );
 }
 
-function CreditCardIcon(props) {
+function CreditCardIcon(props: any) {
   return (
     <svg
       {...props}
@@ -266,7 +266,7 @@ function CreditCardIcon(props) {
   );
 }
 
-function DollarSignIcon(props) {
+function DollarSignIcon(props: any) {
   return (
     <svg
       {...props}
@@ -286,7 +286,7 @@ function DollarSignIcon(props) {
   );
 }
 
-function GlobeIcon(props) {
+function GlobeIcon(props: any) {
   return (
     <svg
       {...props}
@@ -307,7 +307,7 @@ function GlobeIcon(props) {
   );
 }
 
-function HomeIcon(props) {
+function HomeIcon(props: any) {
   return (
     <svg
       {...props}
@@ -327,7 +327,7 @@ function HomeIcon(props) {
   );
 }
 
-function MenuIcon(props) {
+function MenuIcon(props: any) {
   return (
     <svg
       {...props}
@@ -348,7 +348,7 @@ function MenuIcon(props) {
   );
 }
 
-function MoonIcon(props) {
+function MoonIcon(props: any) {
   return (
     <svg
       {...props}
@@ -367,7 +367,7 @@ function MoonIcon(props) {
   );
 }
 
-function MountainIcon(props) {
+function MountainIcon(props: any) {
   return (
     <svg
       {...props}
@@ -386,7 +386,7 @@ function MountainIcon(props) {
   );
 }
 
-function UsersIcon(props) {
+function UsersIcon(props: any) {
   return (
     <svg
       {...props}

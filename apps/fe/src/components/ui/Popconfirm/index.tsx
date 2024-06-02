@@ -14,11 +14,7 @@ export const Popconfirm = ({ children, onOk }: any) => {
         <div>
           Are you sure to delete this item?
           <div className="mt-4 flex justify-end">
-            <PopoverClose
-              className="PopoverClose"
-              aria-label="Close"
-              className="mr-4"
-            >
+            <PopoverClose className="PopoverClose mr-4" aria-label="Close">
               <Button
                 variant={"outline"}
                 size={"sm"}

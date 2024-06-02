@@ -1,7 +1,7 @@
 const LeftMenuSideBar = () => {
   return (
     <div className="flex flex-col bg-gray-950 text-gray-400 transition-all duration-300">
-      <div className="flex items-center justify-between px-4 py-3">
+      {/* <div className="flex items-center justify-between px-4 py-3">
         <Link
           className="flex items-center gap-2 text-lg font-semibold text-gray-50"
           href="#"
@@ -111,7 +111,7 @@ const LeftMenuSideBar = () => {
             </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
-      </div>
+      </div> */}
     </div>
   );
 };
