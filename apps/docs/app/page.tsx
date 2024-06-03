@@ -2,7 +2,7 @@ import Image from "next/image";
 // import { Card } from "@repo/ui/card";
 // import { Code } from "@repo/ui/code";
 import styles from "./page.module.css";
-import "@repo/tailwindcss-config";
+// import "@repo/tailwindcss-config";
 // import { Button } from "@repo/ui/button";
 
 function Gradient({
